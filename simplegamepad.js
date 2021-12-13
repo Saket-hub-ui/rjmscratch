@@ -13,11 +13,11 @@ class ScratchSimpleGamepad {
             "blocks": [{
                         "opcode": "buttonPressedReleased",
                         "blockType": "hat",
-                        "text": "button [b] [eventType]",
+                        "text": "Button [b] [eventType]",
                         "arguments": {
                             "b": {
                                 "type": "number",
-                                "defaultValue": "0"
+                                "defaultValue": "1"
                             },
                             "eventType": {
                                 "type": "number",
